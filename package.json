@@ -1,0 +1,26 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "A node project for authentication",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --exec node index.js"
+  },
+  "author": "Rajnish",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "nodemailer": "^6.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
